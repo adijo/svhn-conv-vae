@@ -16,3 +16,5 @@ python train.py --gen_images_dir images --num_epochs=100 --batch_size=64
 ```
 Images will be samples and generated at the end of each epoch in the `--gen_images-dir` directory.
 
+## Sample Generated Images
+![Images](generated_images.gif)
