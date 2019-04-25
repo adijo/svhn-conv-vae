@@ -1,6 +1,7 @@
 # Convolutional Variational Autoencoder on the SVHN Dataset
 
-## Data Description
+## Data Description 
+* 10 classes, `73257` train images
 * `3 x 32 x 32` tensors.
 
 ## Install
@@ -16,5 +17,5 @@ python train.py --gen_images_dir images --num_epochs=100 --batch_size=64
 ```
 Images will be samples and generated at the end of each epoch in the `--gen_images-dir` directory.
 
-## Sample Generated Images
+## Sample Generated Images (103 epochs)
 ![Images](generated_images.gif)
